@@ -15,11 +15,11 @@ name: "HerVoice"
 # Author/Organization info to be displayed in the templates
 author:
   name: "Ilhan Birik Abdi"
-  url: "https://ilha-an.github.io"
+  url: "https://ilha-an.github.io/"
 
 # Set the baseurl to your repository name
 
-baseurl: "/ilha-an.github.io"
+baseurl: "/Ilha-an.github.io"
 
 #destination for build site files
 destination: "./_site"
