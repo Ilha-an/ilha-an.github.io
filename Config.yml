@@ -19,7 +19,7 @@ author:
 
 # Set the baseurl to your repository name
 
-baseurl: "/Ilha-an.github.io"
+baseurl: "ilha-an.github.io"
 
 #destination for build site files
 destination: "./_site"
@@ -44,7 +44,7 @@ navigation:
 repos:
 - name: "HerVoice Project"
   description: "A platform for gender equity using AI."
-  url: https://github.com/Ilha-an/Ilha-an.github.io
+  url: "https://github.com/Ilha-an/ilha-an.github.io
 
 # Google Analytics (Optional)
 google_analytics_ua: ""
