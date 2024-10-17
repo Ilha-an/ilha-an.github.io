@@ -19,7 +19,7 @@ author:
 
 # Set the baseurl to your repository name
 
-baseurl: "ilha-an.github.io"
+baseurl: "/ilha-an.github.io"
 
 #destination for build site files
 destination: "./_site"
