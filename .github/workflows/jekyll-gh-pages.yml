@@ -46,7 +46,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: jekyll-gh-pages.yml
+          path: ./_site  # This is where Jekyll outputs the site
 
   # Deployment job
   deploy:
