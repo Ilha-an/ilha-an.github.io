@@ -18,8 +18,11 @@ author:
   url: "https://ilha-an.github.io"
 
 # Set the baseurl to your repository name
-# For your project, it would be '/Ilha-an.github.io'
+
 baseurl: "/ilha-an.github.io"
+
+#destination for build site files
+destination: "./_site"
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
 logourl: /assets/img/logo.png  # You can replace this with your own logo
