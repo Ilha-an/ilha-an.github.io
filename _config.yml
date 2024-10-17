@@ -2,7 +2,7 @@
 title: "HerVoice"
 description: "A platform developed for gender equity using AI"
 url: "https://ilha-an.github.io"  # Replace with your GitHub Pages URL
-baseurl: "/ilha-an.github.io" # Replace with your repo name, or use "/" for root
+baseurl: "/ilha-an.github.io"  # Replace with your repo name, or use "/" for root
 
 # Build settings
 destination: "./_site"  # This is where Jekyll will output your site files
