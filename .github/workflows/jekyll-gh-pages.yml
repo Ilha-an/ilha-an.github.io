@@ -28,30 +28,25 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-   #   - name: Setup Pages
-      -name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-      #  uses: actions/configure-pages@v5
-  #    - name: Build with Jekyll
-        #uses: actions/jekyll-build-pages@v1
-        with:
-          ruby-version: '3.0'
-          #source: ./
-        #  destination: ./_site
-    #  - name: Upload artifact
-       # uses: actions/upload-pages-artifact@v3
-       -name: Install dependancies
-        run: |
-           gem install bundler
-           bundle install
-       -name: Build with Jekyll 
-        run: |
-            bundle exec jekyll build 
 
-       -name: upload artifact
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'  # Ruby version, adjust if necessary
+
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Build with Jekyll
+        run: |
+          bundle exec jekyll build
+
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with: jekyll-gh-pages.yml
-       
+        with:
+          path: jekyll-gh-pages.yml
 
   # Deployment job
   deploy:
