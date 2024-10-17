@@ -28,6 +28,9 @@ destination: "./_site"
 logourl: /assets/img/logo.png  # You can replace this with your own logo
 logoalt: "HerVoice Logo"
 
+# Theme
+theme: jekyll-theme-cayman  # Add the Cayman theme
+
 # Navigation
 navigation:
 - text: Home
