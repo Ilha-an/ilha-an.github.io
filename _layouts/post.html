@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<!-- Date in a readable format -->
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
+
+<!-- Page Title in an impactful font for emphasis -->
+<h1 class="her-voice-title">{{ page.title }}</h1>
+
+<!-- Author or Site Author (if not specified) -->
+<p class="view">by {{ page.author | default: site.author.name }}</p>
+
+<!-- Main content area -->
+<div class="her-voice-content">
+  {{ content }}
+</div>
+
+<!-- Tag display if any tags are provided -->
+{% if page.tags %}
+  <small>Tags: 
+    <em>{{ page.tags | join: " - " }}</em>
+  </small>
+{% endif %}
+
+<!-- Adding a Call-to-Action or Motivational Quote at the bottom -->
+<div class="her-voice-quote">
+  <blockquote>
+    "Empowering every voice to rise above and make a difference for gender equity."
+  </blockquote>
+</div>
