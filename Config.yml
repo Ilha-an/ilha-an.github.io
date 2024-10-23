@@ -10,7 +10,7 @@ collections:
     permalink: /:path/
 
 # Title
-name: "HerVoice"
+name: "Her Voice"
 
 # Author/Organization info to be displayed in the templates
 author:
@@ -18,34 +18,32 @@ author:
   url: "https://ilha-an.github.io/"
 
 # Set the baseurl to your repository name
-
 baseurl: "/ilha-an.github.io"
 
-#destination for build site files
+# Destination for build site files
 destination: "./_site"
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
-logourl: /assets/img/logo.png  # You can replace this with your own logo
-logoalt: "HerVoice Logo"
-
+logourl: /assets/img/logo.png  # Replace this with your own logo
+logoalt: "Her Voice Logo"
 
 # Navigation
 navigation:
-- text: Home
-  internal: true
-  url: ./
-- text: About
-  internal: true
-  url: about
-- text: Contact
-  internal: true
-  url: contact
+  - text: Home
+    internal: true
+    url: ./
+  - text: About
+    internal: true
+    url: about
+  - text: Contact
+    internal: true
+    url: contact
 
 # Repo list (Optional)
 repos:
-- name: "HerVoice Project"
-  description: "A platform for gender equity using AI."
-  url: "https://github.com/Ilha-an/ilha-an.github.io
+  - name: "Her Voice Project"
+    description: "A platform for gender equity using AI."
+    url: "https://github.com/Ilha-an/ilha-an.github.io"
 
 # Google Analytics (Optional)
 google_analytics_ua: ""
