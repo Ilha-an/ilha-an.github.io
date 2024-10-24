@@ -2,3 +2,36 @@
 ---
 
 @import "{{ site.theme }}";
+
+/* Custom styles for hero section, buttons, and more */
+#hero {
+  background-image: url('/assets/images/hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  color: white;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.btn-primary {
+  background-color: #ff007b;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #d60067;
+}
+
