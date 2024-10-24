@@ -3,7 +3,7 @@ layout: default
 title: Her Voice
 ---
 
-<section id="hero">
+<section id="hero" style="background-image:url('/assets/images/hero-background.jpg'); background-size: cover; background-position: center; padding: 150px 0; color: white; text-align: center;">
   <div class="container">
     <h1>Welcome to <span class="highlight">Her Voice</span></h1>
     <p>Empowering Women, Amplifying Voices, Mobilizing Change</p>
